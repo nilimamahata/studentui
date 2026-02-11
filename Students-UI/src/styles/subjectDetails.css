@@ -274,3 +274,21 @@
     width: 100%;
   }
 }
+@media (max-width: 768px) {
+
+  .subjectsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+}
+/* ===== HIDE SEARCH BAR ON MOBILE ===== */
+
+@media (max-width: 768px) {
+
+  .subjectsSearch {
+    display: none;
+  }
+
+}

@@ -253,3 +253,82 @@
   }
 }
 
+/* Mobile container bg */
+@media (max-width: 768px) {
+
+  .studyMaterialContent {
+    background: #e8f4f4;
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+}
+/* ===== HIDE SEARCH ON MOBILE ===== */
+@media (max-width: 768px) {
+  .studyMaterialSearch {
+    display: none;
+  }
+}
+
+/* ===== TABLE / CARD SWITCH ===== */
+.studyMaterialMobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  .studyMaterialTableWrap {
+    display: none;
+  }
+
+  .studyMaterialMobile {
+    display: block;
+  }
+
+}
+@media (max-width: 768px) {
+
+  .studyMaterialMobileHeader {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  .studyMaterialCard {
+    background: #177e86;
+    color: white;
+    padding: 14px;
+    border-radius: 14px;
+    margin-bottom: 14px;
+  }
+
+  .studyMaterialCardTop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .studyMaterialCardActions {
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+  }
+
+  .viewBtn {
+    background: #2ecc71;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 14px;
+    color: white;
+  }
+
+  .downloadBtn {
+    background: #6c8fa8;
+    border: none;
+    padding: 6px 16px;
+    border-radius: 14px;
+    color: white;
+  }
+
+}
