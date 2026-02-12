@@ -138,7 +138,7 @@ export default function Dashboard() {
   return (
     <div className="dashExact">
 
-      {/* 🔹 MOBILE TOP SLIDER */}
+      {/*  MOBILE TOP SLIDER */}
       <div className="mobileOnly">
         <TopSliderTabs active={activeTab} setActive={setActiveTab} />
       </div>

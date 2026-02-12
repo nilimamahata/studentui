@@ -66,14 +66,12 @@
   opacity: 0.6;
 }
 
-/* ✅ grid should fill like figma */
 .liveGrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 22px;
 }
 
-/* ✅ card exact bigger size */
 .liveCard {
   background: #0a808a;
   border-radius: 10px;
